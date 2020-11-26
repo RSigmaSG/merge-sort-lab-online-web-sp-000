@@ -40,7 +40,7 @@ function merge(array_1, array_2)
       sorted.push(min_2)
     }
   }
-  
+  return sorted.concat(array_1).concat(array_2)
 }
 
 function mergeSort(array)
