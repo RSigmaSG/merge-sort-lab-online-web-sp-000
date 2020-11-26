@@ -45,11 +45,11 @@ function mergeSort(array)
 
 function addElementInOrder(array, input_1, input_2)
 {
-  let temp
-  let lastElement = array[array.length];
+
   if(lastElement > input_1)
   {
-    temp = lastElement
+    switchAdd(array, input_1)
+    if 
   }
   
 }
@@ -57,6 +57,8 @@ function addElementInOrder(array, input_1, input_2)
 function switchAdd(array, input)
 {
   
-  let temp = array.
+  let temp = array[array.length-1];
+  array[array.length-1] = input
+  array.push(temp)
   
 }
