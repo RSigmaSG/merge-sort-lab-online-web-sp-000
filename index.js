@@ -36,7 +36,7 @@ function merge(array_1, array_2)
       sorted.push(min_1)
       if (currmax < min_1)
       {
-        replace(sorted)
+        replace(sorted, array.length-1, array.length -2)
       }
     }
     else
