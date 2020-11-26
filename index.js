@@ -38,7 +38,7 @@ function merge(array_1, array_2)
 
 function mergeSort(array)
 {
-  let midpoint = array.length/2
+  let midpoint = (array.length)/2
   if (array.length < 2)
   {
     return array
