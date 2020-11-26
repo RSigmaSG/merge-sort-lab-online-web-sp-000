@@ -46,6 +46,6 @@ function mergeSort(array)
 function addElementInOrder(array, input_1, input_2)
 {
   
-  if(array[array.length])
+  if(array[array.length - 1] > input_1)
   
 }
