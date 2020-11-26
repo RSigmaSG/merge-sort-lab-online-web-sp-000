@@ -16,7 +16,7 @@ function findMinAndRemoveSorted(array)
   }
   
   array.splice(minIndex, 1)
-  
+  return min
 }
 
 function merge(array_1, array_2)
