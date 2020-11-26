@@ -31,8 +31,14 @@ function merge(array_1, array_2)
     min_1 = findMinAndRemoveSorted(array_1)
     min_2 = findMinAndRemoveSorted(array_2)
     
-    if (min_1 >)
-    
+    if (min_1 < min_2)
+    {
+      sorted.push(min_1)
+    }
+    else
+    {
+      sorted.push(min_2)
+    }
   }
   
 }
