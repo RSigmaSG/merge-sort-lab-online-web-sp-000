@@ -45,7 +45,18 @@ function mergeSort(array)
 
 function addElementInOrder(array, input_1, input_2)
 {
+  let temp
+  let lastElement = array[array.length];
+  if(lastElement > input_1)
+  {
+    temp = lastElement
+  }
   
-  if(array[array.length - 1] > input_1)
+}
+
+function switchAdd(array, input)
+{
+  
+  let temp = array.
   
 }
