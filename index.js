@@ -5,9 +5,17 @@ function findMinAndRemoveSorted(array)
   
   for (var i = 1; i < array.length ; i++)
   {
-    
+    if (min > array[i])
+    {
+      
+      min = array[i];
+      minIndex = i
+      
+    }
     
   }
+  
+  array.splice(minIndex, 1)
   
 }
 
