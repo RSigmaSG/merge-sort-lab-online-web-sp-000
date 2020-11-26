@@ -22,7 +22,7 @@ function findMinAndRemoveSorted(array)
 function merge(array_1, array_2)
 {
   
-  
+  return array.
   
 }
 
