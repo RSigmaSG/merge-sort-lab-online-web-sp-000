@@ -43,7 +43,7 @@ function mergeSort(array)
   {
     return array
   }
-  merge(mergeSort(array.slice(0, midpoint)),array.slice(midpoint, array.length))
+  return merge(mergeSort(array.slice(0, midpoint)),array.slice(midpoint, array.length))
 }
 
 function addElementInOrder(array, input_1, input_2)
