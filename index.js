@@ -53,6 +53,12 @@ function addElementInOrder(array, input_1, input_2)
         if (input_1 < input_2)
         {
           switchAdd(array, input_1)
+          switchAdd(array, input_2)
+        }
+        else
+        {
+          switchAdd(array, input_2)
+          switchAdd(array, input_1)
         }
     }
     else
