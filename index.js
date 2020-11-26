@@ -38,9 +38,10 @@ function merge(array_1, array_2)
 
 function mergeSort(array)
 {
-  
-  
-  
+  if (array.length < 2)
+  {
+    return
+  }
 }
 
 function addElementInOrder(array, input_1, input_2)
