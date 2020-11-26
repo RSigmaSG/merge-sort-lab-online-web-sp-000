@@ -23,11 +23,15 @@ function merge(array_1, array_2)
 {
   
   let sorted = []
+  let min_1, min_2
   
   while (array_1.length != 0 && array_2.length != 0)
   {
     
+    min_1 = findMinAndRemoveSorted(array_1)
+    min_2 = findMinAndRemoveSorted(array_2)
     
+    if (min_1 >)
     
   }
   
