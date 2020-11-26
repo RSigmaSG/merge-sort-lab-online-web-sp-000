@@ -23,7 +23,7 @@ function merge(array_1, array_2)
 {
   
   let sorted = []
-  let min_1, min_2, currMin
+  let min_1, min_2, currMax
   
   while (array_1.length != 0 && array_2.length != 0)
   {
