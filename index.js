@@ -67,11 +67,22 @@ function addElementInOrder(array, input_1, input_2)
         array.push(input_2)
     }
   }
-  elsif (lastElement(array) > input_2)
+  else if (lastElement(array) > input_2)
   {
+    switchAdd(array,input_2)
     array.push(input_1)
     
   }
+  else if (input_1 < input_2)
+  {
+    array.push(input_1)
+    array.push(input_2)
+  }
+  else
+  {
+    array.push(input_2)
+    array.push(input_1)
+  } 
   
 }
 
