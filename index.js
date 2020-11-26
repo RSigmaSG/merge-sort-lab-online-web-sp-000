@@ -38,11 +38,12 @@ function merge(array_1, array_2)
 
 function mergeSort(array)
 {
+  let midpoint = array.length/2
   if (array.length < 2)
   {
     return array
   }
-  mergesort(merge())
+  merge(mergeSort(array.splice(0, midpoint)),mergeSort(midpoint, array.length))
 }
 
 function addElementInOrder(array, input_1, input_2)
