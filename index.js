@@ -34,10 +34,12 @@ function merge(array_1, array_2)
     if (min_1 < min_2)
     {
       sorted.push(min_1)
+      sorted.push(min_2)
     }
     else
     {
       sorted.push(min_2)
+      sorted.push(min_1)
     }
   }
   return sorted.concat(array_1).concat(array_2)
