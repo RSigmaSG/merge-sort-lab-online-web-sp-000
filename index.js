@@ -40,8 +40,9 @@ function mergeSort(array)
 {
   if (array.length < 2)
   {
-    return
+    return array
   }
+  mergesort(merge())
 }
 
 function addElementInOrder(array, input_1, input_2)
