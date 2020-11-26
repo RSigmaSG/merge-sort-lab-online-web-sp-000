@@ -50,11 +50,11 @@ function addElementInOrder(array, input_1, input_2)
   {
     if (lastElement(array) > input_2)
     {
-        switchAdd(array, input_2)
+        if (input_1 > input_2)
     }
     else
     {
-      array.push(input_2)
+
     }
   }
   else
