@@ -31,14 +31,7 @@ function merge(array_1, array_2)
     min_1 = findMinAndRemoveSorted(array_1)
     min_2 = findMinAndRemoveSorted(array_2)
     
-    if (min_1 < min_2)
-    {
-      sorted.push(min_1)
-    }
-    else
-    {
-      
-    }
+    addElementInOrder(sorted, min_1, min_2)
   }
   return sorted.concat(array_1).concat(array_2)
 }
@@ -50,12 +43,9 @@ function mergeSort(array)
   
 }
 
-function replace(array, index_1, index_2)
+function addElementInOrder(array, input_1, input_2)
 {
   
-  let temp = array[index_1]
-  array[index_1] = array[index_2]
-  array[index_2] = temp
-  
+  if(array[])
   
 }
