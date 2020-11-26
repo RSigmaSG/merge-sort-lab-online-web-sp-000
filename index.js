@@ -62,3 +62,12 @@ function switchAdd(array, input)
   array.push(temp)
   
 }
+
+function lastElement()
+{
+  
+  let temp = array[array.length-1];
+  array[array.length-1] = input
+  array.push(temp)
+  
+}
