@@ -63,16 +63,8 @@ function addElementInOrder(array, input_1, input_2)
     }
     else
     {
-        if (input_1 < input_2)
-        {
-          switchAdd(array, input_1)
-          switchAdd(array, input_2)
-        }
-        else
-        {
-          switchAdd(array, input_2)
-          switchAdd(array, input_1)
-        }
+        switchAdd (array, input_1)
+        array.push(input_2)
     }
   }
   else
@@ -89,7 +81,7 @@ function switchAdd(array, input)
   let temp = array[array.length-1];
   array[array.length-1] = input
   array.push(temp)
-  
+  return array
 }
 
 function lastElement(array)
