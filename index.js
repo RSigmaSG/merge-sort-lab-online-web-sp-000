@@ -81,7 +81,7 @@ function switchAdd(array, input)
   let temp = array[array.length-1];
   array[array.length-1] = input
   array.push(temp)
-  return array
+  
 }
 
 function lastElement(array)
